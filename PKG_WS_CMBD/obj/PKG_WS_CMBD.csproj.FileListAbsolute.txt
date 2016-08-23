@@ -1,0 +1,15 @@
+C:\SOURCES\orawsv\PKG_WS_CMBD\bin\Release\PKG_WS_CMBD.exe.config
+C:\SOURCES\orawsv\PKG_WS_CMBD\obj\Release\PKG_WS_CMBD.pdb
+C:\SOURCES\orawsv\PKG_WS_CMBD\bin\Debug\PKG_WS_CMBD.exe.config
+C:\SOURCES\orawsv\PKG_WS_CMBD\bin\Debug\PKG_WS_CMBD.exe
+C:\SOURCES\orawsv\PKG_WS_CMBD\bin\Debug\PKG_WS_CMBD.pdb
+C:\SOURCES\orawsv\PKG_WS_CMBD\obj\Debug\ResolveAssemblyReference.cache
+C:\SOURCES\orawsv\PKG_WS_CMBD\obj\Debug\PKG_WS_CMBD.frm_WS_CMBD.resources
+C:\SOURCES\orawsv\PKG_WS_CMBD\obj\Debug\PKG_WS_CMBD.Properties.Resources.resources
+C:\SOURCES\orawsv\PKG_WS_CMBD\obj\Debug\PKG_WS_CMBD.csproj.GenerateResource.Cache
+C:\SOURCES\orawsv\PKG_WS_CMBD\obj\Debug\PKG_WS_CMBD.exe
+C:\SOURCES\orawsv\PKG_WS_CMBD\obj\Debug\PKG_WS_CMBD.pdb
+C:\SOURCES\orawsv\PKG_WS_CMBD\obj\Release\ResolveAssemblyReference.cache
+C:\SOURCES\orawsv\PKG_WS_CMBD\obj\Release\PKG_WS_CMBD.frm_WS_CMBD.resources
+C:\SOURCES\orawsv\PKG_WS_CMBD\obj\Release\PKG_WS_CMBD.Properties.Resources.resources
+C:\SOURCES\orawsv\PKG_WS_CMBD\obj\Release\PKG_WS_CMBD.csproj.GenerateResource.Cache

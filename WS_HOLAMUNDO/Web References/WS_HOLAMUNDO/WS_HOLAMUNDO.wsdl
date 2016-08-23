@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="http://xmlns.oracle.com/orawsv/WS_RO/WS_HOLAMUNDO" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WS_HOLAMUNDO" targetNamespace="http://xmlns.oracle.com/orawsv/WS_RO/WS_HOLAMUNDO" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/orawsv/WS_RO/WS_HOLAMUNDO">
+      <xsd:element name="SVARCHAR2-WS_HOLAMUNDOInput">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="INPUT-VARCHAR2-IN" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="WS_HOLAMUNDOOutput">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="RETURN" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </types>
+  <message name="WS_HOLAMUNDOInputMessage">
+    <part name="parameters" element="tns:SVARCHAR2-WS_HOLAMUNDOInput" />
+  </message>
+  <message name="WS_HOLAMUNDOOutputMessage">
+    <part name="parameters" element="tns:WS_HOLAMUNDOOutput" />
+  </message>
+  <portType name="WS_HOLAMUNDOPortType">
+    <operation name="WS_HOLAMUNDO">
+      <input message="tns:WS_HOLAMUNDOInputMessage" />
+      <output message="tns:WS_HOLAMUNDOOutputMessage" />
+    </operation>
+  </portType>
+  <binding name="WS_HOLAMUNDOBinding" type="tns:WS_HOLAMUNDOPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="WS_HOLAMUNDO">
+      <soap:operation soapAction="WS_HOLAMUNDO" />
+      <input>
+        <soap:body use="literal" parts="parameters" />
+      </input>
+      <output>
+        <soap:body use="literal" parts="parameters" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WS_HOLAMUNDOService">
+    <documentation>Oracle Web Service</documentation>
+    <port name="WS_HOLAMUNDOPort" binding="tns:WS_HOLAMUNDOBinding">
+      <soap:address location="http://fraterno.valme.net:8181/orawsv/WS_RO/WS_HOLAMUNDO" />
+    </port>
+  </service>
+</definitions>

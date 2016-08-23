@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PKG_WS_HL73.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PKG_WS_HL73_PKG_WS_HL73_PKG_WS_HL73Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">httpS://bertoaldo.valme.net:1443/orawsv/WS_RO/PKG_WS_HL73</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
